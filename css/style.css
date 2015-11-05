@@ -7,7 +7,10 @@ img {
 
 body {
 /*  background: #EDEDC9;*/
-    background: cornsilk;
+/*  background: cornsilk;*/
+    z-index: 1;
+    margin-top: 275px;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -21,13 +24,15 @@ h1 {
 
 /*NAVIGATION*/
 a {
-  color: grey;
+  color: midnightblue;
   display: inline-block center;
   width: 60px;
   height: 23px;
   padding: 10px;
   margin: 5px;
   text-decoration: none;
+  font-size: .75em;
+  letter-spacing: 3px;
 }
 
 nav {
@@ -38,9 +43,20 @@ li {
   display: inline-block;
   font-family: 'Antic Didone', serif;
   text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
 }
 
-
+.sticky-nav {
+  background: cornsilk;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
 /*LAYOUT*/
 
 img {
@@ -53,10 +69,20 @@ img {
   margin: auto;
 }
 
+footer {
+  background: midnightblue;
+  margin: auto;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+  padding: 20px;
+  font-size: .75em;
+  color: cornsilk
+}
+
 
 /*TYPOGRAPHY*/
 h1 {
-  color: rgba(0,0,0,);
+  color: midnightblue;
   letter-spacing: 1px;
   font-size: 4.5em;
 }
@@ -78,7 +104,3 @@ p {
 a:hover {
   color: black;
 }
-
-
-
-/* MEDIA QUERIES */
