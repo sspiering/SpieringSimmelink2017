@@ -1,0 +1,84 @@
+/*GLOBAL*/
+img {
+  max-width: 35%;
+  float: right;
+  border-radius: 100%;
+}
+
+body {
+/*  background: #EDEDC9;*/
+    background: cornsilk;
+}
+
+h1 {
+  display: inline-block;
+  margin: auto;
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: midnightblue;
+  font-weight: 100;
+  padding-top: 50px;
+}
+
+/*NAVIGATION*/
+a {
+  color: grey;
+  display: inline-block center;
+  width: 60px;
+  height: 23px;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+nav {
+  font-size: 1.2em;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Antic Didone', serif;
+  text-decoration: none;
+}
+
+
+/*LAYOUT*/
+
+img {
+  border: 100px;
+}
+
+.grid-container {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+
+/*TYPOGRAPHY*/
+h1 {
+  color: rgba(0,0,0,);
+  letter-spacing: 1px;
+  font-size: 4.5em;
+}
+
+div {
+  color: navy;
+  font-family: 'Monsieur La Doulaise', cursive;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+  line-height: 25px;
+}
+
+p {
+  font-family: 'Antic Didone', serif;
+  font-size: 1.25em;
+  }
+
+/* LINKS */
+a:hover {
+  color: black;
+}
+
+
+
+/* MEDIA QUERIES */
