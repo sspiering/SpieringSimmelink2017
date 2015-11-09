@@ -49,7 +49,8 @@ li {
 }
 
 .sticky-nav {
-  background: cornsilk;
+/*  background: cornsilk;*/
+  background: #ffffb3;
   display: inline-block;
   text-align: center;
   position: fixed;
@@ -70,13 +71,16 @@ img {
 }
 
 footer {
-  background: midnightblue;
+/*  background: midnightblue;*/
+  background: #002d5f;
   margin: auto;
   text-align: center;
   font-family: 'Antic Didone', serif;
   padding: 20px;
   font-size: .75em;
-  color: cornsilk
+/*  color: cornsilk;*/
+/*  color: #ff6;*/
+  color: #ffffb3;
 }
 
 
