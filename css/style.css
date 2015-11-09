@@ -1,7 +1,6 @@
 /*GLOBAL*/
 img {
-  max-width: 35%;
-  float: right;
+  max-width: 100%;
   border-radius: 100%;
 }
 
@@ -60,14 +59,8 @@ li {
 }
 /*LAYOUT*/
 
-img {
-  border: 100px;
-}
-
 .grid-container {
-  text-align: center;
   display: block;
-  margin: auto;
 }
 
 footer {
@@ -81,6 +74,7 @@ footer {
 /*  color: cornsilk;*/
 /*  color: #ff6;*/
   color: #ffffb3;
+  letter-spacing: .5px;
 }
 
 
@@ -97,14 +91,26 @@ div {
   letter-spacing: 1px;
   font-size: 1.75em;
   line-height: 25px;
+  text-align: center;
 }
 
 p {
   font-family: 'Antic Didone', serif;
-  font-size: 1.25em;
+  font-size: .8em;
+  margin-left: 30px;
   }
+
+.date {
+  text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
 
 /* LINKS */
 a:hover {
-  color: black;
+  color: cornsilk;
+  background: midnightblue;
+  border-radius: 50%;
 }
